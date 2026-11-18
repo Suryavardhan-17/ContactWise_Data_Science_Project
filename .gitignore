@@ -1,0 +1,16 @@
+# Data must be acquired from UCI; do not upload raw copies into this code repo.
+data/raw/*
+!data/raw/.gitkeep
+reports/generated/*
+!reports/generated/.gitkeep
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+.DS_Store
+.idea/
+.vscode/
+*.log
